@@ -14,4 +14,4 @@ jobs:
       with:
         server: lucas.linuxcorp.cl
         username: lucas@lucas.linuxcorp.cl
-        password: ${{ secrets.Secret_Lucas }}
+        password: ${{ secrets.SERVIDOR_LUCAS }}
