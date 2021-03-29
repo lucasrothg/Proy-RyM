@@ -5,22 +5,26 @@
 }
 
 body{
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items:center;
-	background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+	background: rgb(47, 150, 163);
 	font-family: sans-serif;
 	color: white;
 	
 }
 
-.location, .character, .episode{
-	height: 30vh;
-	width: 50vh;
+.location, .character, .episode, .tiempo-proceso1, .tiempo-proceso2, .episode-locations{
+	height: 5%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
+}
+
+.episode-locations{
+	text-overflow: ellipsis;
+	font-size:2px;
 }
 
